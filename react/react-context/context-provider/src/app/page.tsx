@@ -9,16 +9,16 @@ export default function Home() {
       <div>
         <div style={{ flex: 1, border: "1px solid white", borderRadius: 8, textAlign: "center", padding: 24 }}>
           <h2>
-            More renders
+            Example 1
           </h2>
           <p>
             Childs which are not using the value are also re-rending.
           </p>
           <BlockA />
         </div>
-        <div style={{ flex: 1, border: "1px solid white", borderRadius: 8, textAlign: "center", padding: 24  }}>
+        <div style={{ flex: 1, border: "1px solid white", borderRadius: 8, textAlign: "center", padding: 24 }}>
           <h2>
-            Less renders
+            Example 2
           </h2>
           <p>
             Childs which are not using the value are not re-rendering.
