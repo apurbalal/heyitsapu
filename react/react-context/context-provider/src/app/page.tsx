@@ -7,9 +7,9 @@ export default function Home() {
   return (
     <main>
       <div>
-        <div style={{ flex: 1, border: "1px solid white", borderRadius: 8, textAlign: "center", padding: 24 }}>
+        <div style={{ flex: 1, border: "1px solid white", borderRadius: 8, textAlign: "center", padding: 24, marginTop: 48 }}>
           <h2>
-            Example 1
+            BlockA
           </h2>
           <p>
             Childs which are not using the value are also re-rending.
@@ -18,7 +18,7 @@ export default function Home() {
         </div>
         <div style={{ flex: 1, border: "1px solid white", borderRadius: 8, textAlign: "center", padding: 24 }}>
           <h2>
-            Example 2
+            BlockB
           </h2>
           <p>
             Childs which are not using the value are not re-rendering.

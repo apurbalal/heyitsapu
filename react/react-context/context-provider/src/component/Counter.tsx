@@ -27,8 +27,8 @@ const CountController = () => {
 const NotUsingCounter = () => {
   console.log("NotUsingCounter rendering!");
 
-  // Simulate a heavy computation
-  for (let i = 0; i < 500000000; i++) {
+  // Simulate a heavy computation you can change the number to block the main thread to affect UI
+  for (let i = 0; i < 5000000; i++) {
     // do nothing
   }
 
