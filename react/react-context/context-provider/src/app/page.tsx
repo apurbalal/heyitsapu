@@ -6,7 +6,7 @@ import { BlockB } from "@/component/BlockB";
 export default function Home() {
   return (
     <main>
-      <div style={{ display: "flex", justifyContent: "center", flexDirection: "row", rowGap: 28, width: "100%" }}>
+      <div>
         <div style={{ flex: 1, border: "1px solid white", borderRadius: 8, textAlign: "center", padding: 24 }}>
           <h2>
             More renders

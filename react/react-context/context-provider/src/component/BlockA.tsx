@@ -1,11 +1,11 @@
-import { CounterContex } from "@/context/CounterContext";
+import { CounterContext } from "@/context/CounterContext";
 import { useState } from "react";
 import { Counter } from "./Counter";
 
 export const BlockA = () => {
   const [counter, setCounter] = useState(0);
   return (
-    <CounterContex.Provider
+    <CounterContext.Provider
       value={{
         value: counter,
         increment: () => setCounter(prev => prev + 1),
@@ -13,6 +13,6 @@ export const BlockA = () => {
       }}
     >
       <Counter />
-    </CounterContex.Provider>
+    </CounterContext.Provider>
   )
 };

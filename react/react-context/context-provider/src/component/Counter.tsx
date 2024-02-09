@@ -1,8 +1,8 @@
-import { CounterContex } from "@/context/CounterContext"
+import { CounterContext } from "@/context/CounterContext"
 import { useContext, useRef } from "react"
 
 const Count = () => {
-  const { value } = useContext(CounterContex);
+  const { value } = useContext(CounterContext);
   console.log("Count rendering!");
 
   return (
@@ -13,7 +13,7 @@ const Count = () => {
 }
 
 const CountController = () => {
-  const { increment, decrement } = useContext(CounterContex);
+  const { increment, decrement } = useContext(CounterContext);
   console.log("Count controller rendering!");
 
   return (
@@ -26,13 +26,15 @@ const CountController = () => {
 
 const NotUsingCounter = () => {
   console.log("NotUsingCounter rendering!");
+
+  // Simulate a heavy computation
   for (let i = 0; i < 500000000; i++) {
     // do nothing
   }
 
   return (
-    <h2>
-      I am not using the counter context values so I shouldn&apos;t re-render
+    <h2 style={{ marginTop: 12 }}>
+      Not using counter component
     </h2>
   )
 }

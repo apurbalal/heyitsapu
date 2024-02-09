@@ -1,11 +1,11 @@
-import { CounterContex } from "@/context/CounterContext";
+import { CounterContext } from "@/context/CounterContext";
 import { useState } from "react";
 import { Counter } from "./Counter";
 
 const CounterProvider = ({ children }: { children: React.ReactNode }) => {
   const [counter, setCounter] = useState(0);
   return (
-    <CounterContex.Provider
+    <CounterContext.Provider
       value={{
         value: counter,
         increment: () => setCounter(prev => prev + 1),
@@ -13,7 +13,7 @@ const CounterProvider = ({ children }: { children: React.ReactNode }) => {
       }}
     >
       {children}
-    </CounterContex.Provider>
+    </CounterContext.Provider>
   )
 }
 
