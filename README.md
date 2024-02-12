@@ -10,6 +10,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Hoisting | https://github.com/apurbalal/heyitsapu/tree/main/javascript/hoisting |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/javascript/memoization |
 | prototype | https://github.com/apurbalal/heyitsapu/tree/main/javascript/prototype |
+| async await | https://github.com/apurbalal/heyitsapu/tree/main/javascript/async-await |
 | React | |
 | Context API | https://github.com/apurbalal/heyitsapu/tree/main/react/react-context |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/react/react-memoization |
