@@ -13,3 +13,5 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | React | |
 | Context API | https://github.com/apurbalal/heyitsapu/tree/main/react/react-context |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/react/react-memoization |
+| Misc | |
+| Web performance improvement tips | https://github.com/apurbalal/heyitsapu/blob/main/misc/web-performance-improvement-tip.md |
