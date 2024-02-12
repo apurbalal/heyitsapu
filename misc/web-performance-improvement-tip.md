@@ -1,4 +1,6 @@
 # [In Progress] Web performance improvement tip
+<img width="731" alt="Screen Shot 2024-02-12 at 20 05 53" src="https://github.com/apurbalal/heyitsapu/assets/9425881/d7e2fc7c-316d-4faa-9421-17b072e31eb1">
+
 
 ## Things that matter
 1. LCP - Largest contentful paint
