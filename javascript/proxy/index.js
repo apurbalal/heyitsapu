@@ -1,6 +1,7 @@
-const createProxy = (object) => new Proxy(object, {
+const createLinkedProxy = (object) => new Proxy(object, {
   get(target, property) {
     if (!target["ref"]?.[property]) {
+      console.log("Creating reference to DOM element")
       target["ref"] = {
         ...target["ref"],
         [property]: document.getElementById(property), 
@@ -17,7 +18,7 @@ const createProxy = (object) => new Proxy(object, {
   }
 })
 
-const counter = createProxy({
+const counter = createLinkedProxy({
   value: 0,
   numTimesClicked: 0,
 });
