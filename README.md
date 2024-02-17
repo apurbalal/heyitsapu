@@ -13,6 +13,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Async await | https://github.com/apurbalal/heyitsapu/tree/main/javascript/async-await |
 | Event loop | https://github.com/apurbalal/heyitsapu/tree/main/javascript/event-loop |
 | Class | https://github.com/apurbalal/heyitsapu/tree/main/javascript/class |
+| Proxy | https://github.com/apurbalal/heyitsapu/tree/main/javascript/proxy |
 | React | |
 | Context API | https://github.com/apurbalal/heyitsapu/tree/main/react/react-context |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/react/react-memoization |
