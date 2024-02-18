@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+}
+
+.animated-box {
+  width: 100px;
+  height: 100px;
+  background-color: #007bff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  position: absolute;
+  animation: side-to-side 5s infinite;
+}
+
+@keyframes side-to-side {
+  0% {
+    left: 0%;
+  }
+  50% {
+    left: calc(100% - 100px);
+  }
+  100% {
+    left: 0%;
+  } 
+}
+
+.container {
+  position: absolute;
+  top: 120px;
+}
