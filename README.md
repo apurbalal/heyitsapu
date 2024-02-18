@@ -3,9 +3,10 @@ Hit ⭐ if you like the content and follow <a href="https://www.instagram.com/he
 You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">Discussions</a> to discuss any topics, ideas, Q&A or to connect.
 
 # Table of content
+## Javascript
 | Topic | Links |
 | --- | --- |
-| Javascript | |
+| Javascript essentials | https://github.com/apurbalal/heyitsapu/tree/main/javascript |
 | Closure | https://github.com/apurbalal/heyitsapu/tree/main/javascript/closure |
 | Hoisting | https://github.com/apurbalal/heyitsapu/tree/main/javascript/hoisting |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/javascript/memoization |
@@ -14,7 +15,11 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Event loop | https://github.com/apurbalal/heyitsapu/tree/main/javascript/event-loop |
 | Class | https://github.com/apurbalal/heyitsapu/tree/main/javascript/class |
 | Proxy | https://github.com/apurbalal/heyitsapu/tree/main/javascript/proxy |
-| React | |
+
+## React
+| Topic | Links |
+| --- | --- |
+| React essentials | https://github.com/apurbalal/heyitsapu/tree/main/react |
 | Context API | https://github.com/apurbalal/heyitsapu/tree/main/react/react-context |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/react/react-memoization |
 | Misc | |
