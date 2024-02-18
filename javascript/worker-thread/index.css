@@ -1,5 +1,7 @@
 body {
   padding: 0;
+  background-color: black;
+  color: white;
 }
 
 .animated-box {
@@ -15,7 +17,7 @@ body {
   border-radius: 4px;
   cursor: pointer;
   position: absolute;
-  animation: side-to-side 5s infinite;
+  animation: side-to-side 1s infinite;
 }
 
 @keyframes side-to-side {
