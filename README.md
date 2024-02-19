@@ -9,7 +9,6 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Javascript essentials | https://github.com/apurbalal/heyitsapu/tree/main/javascript |
 | Closure | https://github.com/apurbalal/heyitsapu/tree/main/javascript/closure |
 | Hoisting | https://github.com/apurbalal/heyitsapu/tree/main/javascript/hoisting |
-| Memoization | https://github.com/apurbalal/heyitsapu/tree/main/javascript/memoization |
 | Prototype | https://github.com/apurbalal/heyitsapu/tree/main/javascript/prototype |
 | Async await | https://github.com/apurbalal/heyitsapu/tree/main/javascript/async-await |
 | Event loop | https://github.com/apurbalal/heyitsapu/tree/main/javascript/event-loop |
@@ -22,5 +21,15 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | React essentials | https://github.com/apurbalal/heyitsapu/tree/main/react |
 | Context API | https://github.com/apurbalal/heyitsapu/tree/main/react/react-context |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/react/react-memoization |
-| Misc | |
+
+## Optimization
+| Topic | Links |
+| --- | --- |
+| Virtualization | https://github.com/apurbalal/heyitsapu/tree/main/javascript/virtualize |
+| Memoization | https://github.com/apurbalal/heyitsapu/tree/main/javascript/memoization |
+| Worker thread | https://github.com/apurbalal/heyitsapu/tree/main/javascript/worker-thread |
+
+## Misc
+| Topic | Links |
+| --- | --- |
 | Web performance improvement tips | https://github.com/apurbalal/heyitsapu/blob/main/misc/web-performance-improvement-tip.md |
