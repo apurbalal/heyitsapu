@@ -4,7 +4,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 
 # Table of content
 ## Javascript
-| Topic | Links |
+| Title | Links |
 | --- | --- |
 | Javascript essentials | https://github.com/apurbalal/heyitsapu/tree/main/javascript |
 | Closure | https://github.com/apurbalal/heyitsapu/tree/main/javascript/closure |
@@ -16,24 +16,25 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Proxy | https://github.com/apurbalal/heyitsapu/tree/main/javascript/proxy |
 
 ## React
-| Topic | Links |
+| Title | Links |
 | --- | --- |
 | React essentials | https://github.com/apurbalal/heyitsapu/tree/main/react |
 | Context API | https://github.com/apurbalal/heyitsapu/tree/main/react/react-context |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/react/react-memoization |
 
 ## Optimization
-| Topic | Links |
+| Title | Links |
 | --- | --- |
 | Virtualization | https://github.com/apurbalal/heyitsapu/tree/main/javascript/virtualize |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/javascript/memoization |
 | Worker thread | https://github.com/apurbalal/heyitsapu/tree/main/javascript/worker-thread |
 
 ## Projects
-| Topic | Links |
+| Title | Links |
+| --- | --- |
 | Intro master | https://github.com/apurbalal/intro-master |
 
 ## Misc
-| Topic | Links |
+| Title | Links |
 | --- | --- |
 | Web performance improvement tips | https://github.com/apurbalal/heyitsapu/blob/main/misc/web-performance-improvement-tip.md |
