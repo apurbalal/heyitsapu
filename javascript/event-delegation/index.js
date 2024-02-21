@@ -23,18 +23,15 @@ const initialize = (data) => {
     row.style.top = `${i * HEIGHT_OF_EACH_ROW}px`;
     row.innerHTML = `Name ${data[i].id}`;
     row.id = data[i].id;
-    row.onclick = (event) => {
-      console.log(`You clicked on ${data[i].id}`);
-    }
     container.appendChild(row);
   }
 
-  // container.onclick = (event) => {
-  //   const { target } = event;
-  //   if (target.className === 'row') {
-  //     console.log(`You clicked on ${target.id}`);
-  //   }
-  // }
+  container.onclick = (event) => {
+    const { target } = event;
+    if (target.className === 'row') {
+      console.log(`You clicked on ${target.id}`);
+    }
+  }
 }
 
 const init = async () => {
