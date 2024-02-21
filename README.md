@@ -28,6 +28,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Virtualization | https://github.com/apurbalal/heyitsapu/tree/main/javascript/virtualize |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/javascript/memoization |
 | Worker thread | https://github.com/apurbalal/heyitsapu/tree/main/javascript/worker-thread |
+| Event delegation | https://github.com/apurbalal/heyitsapu/tree/main/javascript/event-delegation |
 
 ## Projects
 | Title | Links |
