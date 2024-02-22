@@ -1,5 +1,5 @@
 # [In Draft] Guide
-**Note: This might not cover all the edge cases 🙏** 
+**Note: This is still in draft 🙏** 
 
 ## DSA
 Resource: https://www.geeksforgeeks.org/introduction-to-data-structures/
