@@ -40,3 +40,15 @@ Resource: https://www.geeksforgeeks.org/introduction-to-data-structures/
 - Backtracking
 - Dynamic Programming
 
+## Projects
+Make projects which cover these specific areas
+- [ ] Authentication
+- [ ] Storing and showing User Data
+- [ ] Username support
+- [ ] Image/file uploading
+- [ ] Solves a problem, can be a copy of another project but try to add your flavour to solve the same problem in a different way.
+- [ ] Others
+    - [ ] CI/CD
+    - [ ] Version control
+    - [ ] Dev and Prod env
+
