@@ -51,4 +51,10 @@ Make projects which cover these specific areas
     - [ ] CI/CD
     - [ ] Version control
     - [ ] Dev and Prod env
+### Project examples
+These are the projects that I did in college
+- [ ] https://www.youtube.com/watch?v=N_f6ktj-BZk&ab_channel=Smartbugg
+- [ ] https://www.youtube.com/watch?v=J1HL2kL6aJ0&ab_channel=Smartbugg
+- [ ] https://www.youtube.com/watch?v=3GLRtiOjpI4&ab_channel=Smartbugg
+- [ ] https://www.youtube.com/watch?v=eAQdAQ2Z5gY&ab_channel=Smartbugg
 
