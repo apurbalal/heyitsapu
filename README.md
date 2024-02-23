@@ -21,6 +21,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | React essentials | https://github.com/apurbalal/heyitsapu/tree/main/react |
 | Context API | https://github.com/apurbalal/heyitsapu/tree/main/react/react-context |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/react/react-memoization |
+| Suspense Data fetching | https://github.com/apurbalal/heyitsapu/tree/main/react/suspense |
 
 ## Optimization
 | Title | Links |
