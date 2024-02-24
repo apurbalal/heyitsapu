@@ -30,6 +30,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/javascript/memoization |
 | Worker thread | https://github.com/apurbalal/heyitsapu/tree/main/javascript/worker-thread |
 | Event delegation | https://github.com/apurbalal/heyitsapu/tree/main/javascript/event-delegation |
+| Debounce & throttle | https://github.com/apurbalal/heyitsapu/tree/main/javascript/debounce-throttle |
 
 ## Projects
 | Title | Links |
