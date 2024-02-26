@@ -22,6 +22,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Context API | https://github.com/apurbalal/heyitsapu/tree/main/react/react-context |
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/react/react-memoization |
 | Suspense Data fetching | https://github.com/apurbalal/heyitsapu/tree/main/react/suspense |
+| React key | https://github.com/apurbalal/heyitsapu/tree/main/react/react-key |
 
 ## Optimization
 | Title | Links |
