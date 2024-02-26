@@ -17,7 +17,7 @@ export default function Home() {
           <button onClick={() => setCounter(prev => prev + 1)}>
             Increment
           </button>
-          <button onClick={() => setCounter(prev => prev + 1)}>
+          <button onClick={() => setCounter(prev => prev - 1)}>
             Decrement
           </button>
         </div>

@@ -44,13 +44,14 @@ h1 {
   text-align: center;
   padding: 48px;
   border-top: 1px solid var(--primary-color);
+  background-image: linear-gradient(to bottom, #242424 0%, black 100%);
 }
 
 .counter {
   height: 193px;
   overflow: hidden;
+  background-image: linear-gradient(to bottom, #242424 0%, black 100%);
 }
-
 
 button {
   padding: 12px;
