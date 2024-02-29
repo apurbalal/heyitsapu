@@ -38,3 +38,16 @@ document.getElementById('search-form').addEventListener('submit', (event) => {
   event.preventDefault();
   throttledFormSubmit(event);
 });
+
+const mouseTrack = document.getElementById('mouse-tracking');
+const logMousePosition = (event) => {
+  console.log(event.clientX, event.clientY);
+}
+const throttledLogMousePosition = throttle(logMousePosition, 200);
+const onMouseMove = (event) => {
+  throttledLogMousePosition(event);
+  mouseTrack.style.left = `${event.clientX - 25}px`;
+  mouseTrack.style.top = `${event.clientY - 25}px`;
+}
+
+document.addEventListener("mousemove", onMouseMove);
