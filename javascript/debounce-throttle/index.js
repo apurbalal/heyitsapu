@@ -41,9 +41,10 @@ document.getElementById('search-form').addEventListener('submit', (event) => {
 
 const mouseTrack = document.getElementById('mouse-tracking');
 const logMousePosition = (event) => {
-  console.log(event.clientX, event.clientY);
+  console.log("Mouse pos sent to API",event.clientX, event.clientY);
 }
-const throttledLogMousePosition = throttle(logMousePosition, 200);
+
+const throttledLogMousePosition = throttle(logMousePosition, 500);
 const onMouseMove = (event) => {
   throttledLogMousePosition(event);
   mouseTrack.style.left = `${event.clientX - 25}px`;
