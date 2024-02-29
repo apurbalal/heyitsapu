@@ -23,6 +23,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Memoization | https://github.com/apurbalal/heyitsapu/tree/main/react/react-memoization |
 | Suspense Data fetching | https://github.com/apurbalal/heyitsapu/tree/main/react/suspense |
 | React key | https://github.com/apurbalal/heyitsapu/tree/main/react/react-key |
+| useSyncExternalStore | https://github.com/apurbalal/heyitsapu/tree/main/react/use-sync-external-store |
 
 ## Optimization
 | Title | Links |
