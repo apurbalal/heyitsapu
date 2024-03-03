@@ -14,6 +14,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Event loop | https://github.com/apurbalal/heyitsapu/tree/main/javascript/event-loop |
 | Class | https://github.com/apurbalal/heyitsapu/tree/main/javascript/class |
 | Proxy | https://github.com/apurbalal/heyitsapu/tree/main/javascript/proxy |
+| Generator | https://github.com/apurbalal/heyitsapu/tree/main/javascript/generator |
 
 ## React
 | Title | Links |
