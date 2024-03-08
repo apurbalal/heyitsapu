@@ -1,0 +1,73 @@
+:root {
+  /* padding */
+  --padding-sm: 0.5rem;
+  --padding-md: 1rem;
+  --padding-lg: 1.5rem;
+  --padding-xl: 2rem;
+
+  /* border radius */
+  --border-radius-sm: 0.5rem;
+  --border-radius-md: 1rem;
+  --border-radius-lg: 1.5rem;
+  --border-radius-xl: 2rem;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  transition: all 0.5s;
+  background-color: var(--background-color);
+  color: var(--text-color-default);
+  font-family: sans-serif;
+}
+
+button {
+  padding: var(--padding-md) var(--padding-lg);
+  border-radius: var(--border-radius-sm);
+  background-color: var(--primary-color);
+  color: var(--button-text-color);
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  outline: 2px solid var(--secondary-color);
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: 400px;
+  border-radius: var(--border-radius-md);
+  padding: var(--padding-md);
+
+  position: relative;
+  top: 0px;
+  left: 0px;
+  cursor: pointer;
+  background-color: var(--background-color);
+  border-top: 1px solid var(--text-color-default);
+  border-left: 1px solid var(--text-color-default);
+  border-right: 1px solid var(--text-color-default);
+  border-bottom: 1px solid var(--text-color-default);
+  transition: all 0.5s ease;
+  box-shadow: 1px 1px 10px var(--shadow-color);
+}
+
+.card:hover {
+  top: -5px;
+  left: -5px;
+  border-top: 1px solid var(--text-color-default);
+  border-left: 1px solid var(--text-color-default);
+  border-right: 5px solid var(--text-color-default);
+  border-bottom: 5px solid var(--text-color-default);
+  box-shadow: 5px 5px 5px var(--shadow-color);
+}

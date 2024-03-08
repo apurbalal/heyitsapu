@@ -1,0 +1,7 @@
+:root {
+  /* default light color */
+  --text-color-default: #000000;
+  --background-color: #FFFFFF;
+  --button-text-color: #FFFFFF;
+  --shadow-color: #00000050;
+}
