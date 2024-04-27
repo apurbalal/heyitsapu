@@ -15,6 +15,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Class | https://github.com/apurbalal/heyitsapu/tree/main/javascript/class |
 | Proxy | https://github.com/apurbalal/heyitsapu/tree/main/javascript/proxy |
 | Generator | https://github.com/apurbalal/heyitsapu/tree/main/javascript/generator |
+| WeakRef | https://github.com/apurbalal/heyitsapu/tree/main/javascript/weakref |
 
 ## React
 | Title | Links |
