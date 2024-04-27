@@ -12,7 +12,7 @@ const weakrefCache = (fetch) => {
       console.log("Cache hit");
       return ref.deref();
     } else {
-      const data = await await fetch(country);
+      const data = await fetch(country);
       map.set(country, new WeakRef(data));
       return data;
     }
