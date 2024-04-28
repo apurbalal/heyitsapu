@@ -1,11 +1,11 @@
 "use client";
-import pica from "pica";
 import { createRef } from "react";
 
 export default function DynamicLibImport() {
   const canvasRef = createRef<HTMLCanvasElement>();
   const resizeImage = async (imageFile: File) => {
     try {
+      const pica = await import("pica").then(mod => mod.default);
       const picaInstance = pica();
       const image = new Image();
       image.src = URL.createObjectURL(imageFile);
