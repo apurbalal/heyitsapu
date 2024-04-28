@@ -36,6 +36,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Event delegation | https://github.com/apurbalal/heyitsapu/tree/main/javascript/event-delegation |
 | Debounce & throttle | https://github.com/apurbalal/heyitsapu/tree/main/javascript/debounce-throttle |
 
+
 ## Projects
 | Title | Links |
 | --- | --- |
@@ -44,4 +45,5 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 ## Misc
 | Title | Links |
 | --- | --- |
+| Dynamic lib importing | https://github.com/apurbalal/heyitsapu/tree/main/misc/web-app-optimization/src/app/dynamic-lib-import |
 | Web performance improvement tips | https://github.com/apurbalal/heyitsapu/blob/main/misc/web-performance-improvement-tip.md |
