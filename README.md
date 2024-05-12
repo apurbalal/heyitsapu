@@ -26,6 +26,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Suspense Data fetching | https://github.com/apurbalal/heyitsapu/tree/main/react/suspense |
 | React key | https://github.com/apurbalal/heyitsapu/tree/main/react/react-key |
 | useSyncExternalStore | https://github.com/apurbalal/heyitsapu/tree/main/react/use-sync-external-store |
+| Server component | https://github.com/apurbalal/heyitsapu/tree/main/react/server-component |
 
 ## Optimization
 | Title | Links |
