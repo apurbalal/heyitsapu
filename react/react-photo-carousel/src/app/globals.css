@@ -1,0 +1,40 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+
+.snap-carousel {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+}
+
+.snap-item {
+  width: 100%;
+  flex: 0 0 auto;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.dot-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 12px;
+  gap: 4px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  background-color: white;
+  transition: all 0.3s ease;
+}
