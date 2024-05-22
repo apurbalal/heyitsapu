@@ -42,6 +42,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Title | Links |
 | --- | --- |
 | Intro master | https://github.com/apurbalal/intro-master |
+| Photo carousel | https://github.com/apurbalal/heyitsapu/tree/main/react/react-photo-carousel |
 
 ## Misc
 | Title | Links |
