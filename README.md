@@ -1,4 +1,7 @@
 # Source
+<img style="filter: blur(10px)" src="https://raw.githubusercontent.com/apurbalal/heyitsapu/3e4455a54acc23b7f8451771916f30b5d85cfd7c/misc/reveal-animation/reveal.svg" width="100%" />
+
+
 Hit ⭐ if you like the content and follow <a href="https://www.instagram.com/heyitsapu/">@heyitsapu</a> to get latest updates and connect with me. I will add code snippets that I am using for the videos, here.
 You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">Discussions</a> to discuss any topics, ideas, Q&A or to connect.
 
