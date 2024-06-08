@@ -1,0 +1,83 @@
+:root {
+  --primary-color: #deff37;
+} 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  color: black;
+  background-color: var(--primary-color);
+  box-shadow: 0 5px 20px var(--primary-color);
+  border: none;
+  outline: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  align-items: center;
+}
+
+.parent {
+  position: relative;
+  padding: 32px;
+}
+
+@supports (backdrop-filter: blur(10px)) {
+  .clip-container-animation {
+    --top: -20px;
+    --bottom: calc(100% + 20px);
+    --right: calc(100% + 20px);
+    clip-path: polygon(-10px var(--top), -10px var(--top), -10px var(--bottom), -10px var(--bottom));
+    animation: animate-clip-path 2s ease-in-out 0.5s forwards;
+  }
+
+  @keyframes animate-clip-path {
+    from {
+      clip-path: polygon(-10px var(--top), -10px var(--top), -10px var(--bottom), -10px var(--bottom));
+    }
+    to {
+      clip-path: polygon(0 var(--top), var(--right) var(--top), var(--right) var(--bottom), 0 var(--bottom));
+    }
+  }
+
+  .reveal-container {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(10px) brightness(1.5);
+    animation: reveal-animation 3.5s ease-in-out forwards;
+    mask-image: linear-gradient(to right, transparent, #000 20%);
+  }
+
+  @keyframes reveal-animation {
+    from {
+      left: -100%;
+    }
+    to {
+      left: 100%
+    }
+  } 
+}
