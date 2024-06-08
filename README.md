@@ -17,6 +17,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | Generator | https://github.com/apurbalal/heyitsapu/tree/main/javascript/generator |
 | WeakRef | https://github.com/apurbalal/heyitsapu/tree/main/javascript/weakref |
 | Call and Apply | https://github.com/apurbalal/heyitsapu/tree/main/javascript/call-apply |
+| Promise all | https://github.com/apurbalal/heyitsapu/tree/main/javascript/promise-all | 
 
 ## React
 | Title | Links |
@@ -50,3 +51,4 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | --- | --- |
 | Dynamic lib importing | https://github.com/apurbalal/heyitsapu/tree/main/misc/web-app-optimization/src/app/dynamic-lib-import |
 | Web performance improvement tips | https://github.com/apurbalal/heyitsapu/blob/main/misc/web-performance-improvement-tip.md |
+| Reveal animation | https://github.com/apurbalal/heyitsapu/tree/main/misc/reveal-animation |
