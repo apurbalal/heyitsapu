@@ -85,15 +85,15 @@
         } 
       </style>
       <main>
-      <div class="parent">
-        <div class="container clip-container-animation">
-          <h4 style="color: var(--primary-color);">Welcome</h4>
-          <p>to heyitsapu repo</p>
-          <h4>👋</h4>
+        <div class="parent">
+          <div class="container clip-container-animation">
+            <h4 style="color: var(--primary-color);">Welcome</h4>
+            <p>to @heyitsapu repo</p>
+            <h4>👋</h4>
+          </div>
+          <div class="reveal-container">
+          </div>
         </div>
-        <div class="reveal-container">
-        </div>
-      </div>
       </main>
     </div>
   </foreignObject>
