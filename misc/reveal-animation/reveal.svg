@@ -89,7 +89,7 @@
         <div class="container clip-container-animation">
           <h4 style="color: var(--primary-color);">Welcome</h4>
           <p>to heyitsapu repo</p>
-          <button>Get started</button>
+          <h4>👋</h4>
         </div>
         <div class="reveal-container">
         </div>
