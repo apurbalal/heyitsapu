@@ -3,16 +3,32 @@
     <div xmlns="http://www.w3.org/1999/xhtml">
       <style>
         :root {
-          --primary-color: #deff37;
-        } 
+          --bg-color: #fff;
+          --text-color: #161b22;
+          --primary-color: #006AFF;
+        }
+
+        @keyframes hi  {
+            0% { transform: rotate( 0.0deg) }
+           10% { transform: rotate(14.0deg) }
+           20% { transform: rotate(-8.0deg) }
+           30% { transform: rotate(14.0deg) }
+           40% { transform: rotate(-4.0deg) }
+           50% { transform: rotate(10.0deg) }
+           60% { transform: rotate( 0.0deg) }
+          100% { transform: rotate( 0.0deg) }
+        }
+
+        .hi {
+          animation: hi 1.5s linear -0.5s infinite;
+          display: inline-block;
+          transform-origin: 70% 70%;
+        }
+
         * {
           padding: 0;
           margin: 0;
           box-sizing: border-box;
-        }
-
-        main {
-          
         }
 
         main {
@@ -21,8 +37,8 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          background-color: black;
-          color: white;
+          background-color: var(--bg-color);
+          color: var(--text-color);
           font-family: sans-serif;
         }
 
@@ -83,6 +99,13 @@
             left: 100%
           }
         } 
+
+        @media (prefers-color-scheme: dark) {
+          :root {
+            --bg-color: #161b22;
+            --text-color: #fff;
+          }
+        }
       </style>
       <main>
         <div class="parent">
