@@ -32,6 +32,7 @@ You can also start <a href="https://github.com/apurbalal/heyitsapu/discussions">
 | React key | https://github.com/apurbalal/heyitsapu/tree/main/react/react-key |
 | useSyncExternalStore | https://github.com/apurbalal/heyitsapu/tree/main/react/use-sync-external-store |
 | Server component | https://github.com/apurbalal/heyitsapu/tree/main/react/server-component |
+| Zustand | https://github.com/apurbalal/heyitsapu/tree/main/react/zustand |
 
 ## Optimization
 | Title | Links |
