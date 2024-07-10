@@ -102,7 +102,7 @@
 
         @media (prefers-color-scheme: dark) {
           :root {
-            --bg-color: #161b22;
+            --bg-color: #0d1117;
             --text-color: #fff;
           }
         }
